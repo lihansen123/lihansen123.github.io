@@ -10,12 +10,14 @@ li {
 	float: left;
 }
 li a {
+	list-style-type: none;
 	display: block;
 	color: #666666;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
-li a:hover:not(.active) {
+li a: hover: not(.active) {
+	list-style-type: none;
 	background-color: #dddddd;
 }
