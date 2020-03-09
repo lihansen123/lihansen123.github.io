@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <stdlib.h>
+//	author: 李瀚森
+//	time: 2020.03.08 14:22
 using namespace std;
 int main() {
 //	step 0: 初始化vector，名字为sk，数量为1000个。
