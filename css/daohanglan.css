@@ -18,6 +18,5 @@ li a {
 	text-decoration: none;
 }
 li a: hover: not(.active) {
-	list-style-type: none;
 	background-color: #dddddd;
 }
