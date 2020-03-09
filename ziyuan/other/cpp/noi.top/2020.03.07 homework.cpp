@@ -11,7 +11,7 @@ int main() {
 		sk[i-1] = rand() % 100;
 	}
 //	step 1: 删除sk中第5到第18个元素。
-	sk.erase(sk.begin() + 5 - 1, sk.begin() + 18 - 1);
+	sk.erase(sk.begin() + 5 - 1, sk.begin() + 18);
 //	step 2: 将233插入到sk中第233个元素的后面。 
 	sk.insert(sk.begin() + 233 - 1, 233);
 //	step 3: 将sk中的所有元素按从左到右的顺序输出，用空格隔开。
